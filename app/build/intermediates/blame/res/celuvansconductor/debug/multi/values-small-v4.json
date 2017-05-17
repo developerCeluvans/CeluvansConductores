@@ -1,0 +1,164 @@
+[
+    {
+        "outputFile": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/build/intermediates/incremental/mergeCeluvansconductorDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/src/celuvansconductor/res/values-small/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/src/celuvansconductor/res/values-small/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 46,
+                    "endOffset": 211
+                },
+                "from": {
+                    "file": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/src/celuvansconductor/res/values-small/dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 245,
+                        "endColumn": 43,
+                        "endOffset": 287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 216,
+                    "endColumn": 41,
+                    "endOffset": 253
+                },
+                "from": {
+                    "file": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/src/celuvansconductor/res/values-small/dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 205,
+                        "endColumn": 38,
+                        "endOffset": 242
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/build/intermediates/incremental/mergeCeluvansconductorDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/celuvansconductor/res/values-small/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "/Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/celuvansconductor/res/values-small/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 46,
+                    "endOffset": 211
+                },
+                "from": {
+                    "file": "/Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/celuvansconductor/res/values-small/dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 245,
+                        "endColumn": 43,
+                        "endOffset": 287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 216,
+                    "endColumn": 41,
+                    "endOffset": 253
+                },
+                "from": {
+                    "file": "/Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/celuvansconductor/res/values-small/dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 205,
+                        "endColumn": 38,
+                        "endOffset": 242
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,4 @@
+#Wed May 17 14:12:19 COT 2017
+base.0=/Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/build/intermediates/transforms/dex/celuvansconductor/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/build/intermediates/transforms/dex/celuvansconductor/debug/folders/1000/1f/main/classes.dex

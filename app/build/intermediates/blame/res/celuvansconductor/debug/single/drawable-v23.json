@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/build/intermediates/res/merged/celuvansconductor/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "/Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/build/intermediates/res/merged/celuvansconductor/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/Users/developer_celuvans/.android/build-cache/f0583d0c6f254efb82691366406c11ea6e1fe385/output/res/drawable-v23/abc_control_background_material.xml"
+    }
+]

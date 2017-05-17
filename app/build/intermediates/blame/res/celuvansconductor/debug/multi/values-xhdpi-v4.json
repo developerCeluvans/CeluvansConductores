@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "/Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/build/intermediates/incremental/mergeCeluvansconductorDebugResources/merged.dir/values-xhdpi-v4/values-xhdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 41,
+                    "endOffset": 92
+                },
+                "from": {
+                    "file": "/Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/celuvansconductor/res/values-xhdpi/dimen.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 41,
+                        "endOffset": 92
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/build/intermediates/incremental/mergeCeluvansconductorDebugResources/merged.dir/values-xhdpi-v4/values-xhdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 41,
+                    "endOffset": 92
+                },
+                "from": {
+                    "file": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/src/celuvansconductor/res/values-xhdpi/dimen.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 41,
+                        "endOffset": 92
+                    }
+                }
+            }
+        ]
+    }
+]

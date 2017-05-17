@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cell_service"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#F6F6F6"
+    android:baselineAligned="false">
+
+    <RelativeLayout
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/txtElement"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="KR 93 #15-59"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtBarrio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtElement"
+            android:layout_marginLeft="5dp"
+            android:text="Barrio: Chico"
+            android:textColor="@color/text_orange"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtDestino"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtBarrio"
+            android:layout_marginLeft="5dp"
+            android:text="Barrio: Chico"
+            android:textColor="@color/text_gray"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtElement_dos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtDestino"
+            android:layout_marginLeft="5dp"
+            android:text="Nombre de usuario"
+            android:textColor="@color/text_gray"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="70sp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/icon_desti"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/aceptar"
+            android:src="@drawable/aero_over"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/payType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TARJETA"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:visibility="gone"
+            android:background="@color/text_orange"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/payTypeImg"
+            android:layout_width="60dp"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/aceptar"
+            android:visibility="visible"
+            android:layout_weight="0.00" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnElement"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        android:background="@drawable/btn_request"
+        android:text="@string/my_cars_button_confirmar"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

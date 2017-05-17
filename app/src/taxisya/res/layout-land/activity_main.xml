@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/contectt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".LoginActivity">
+
+    <HorizontalScrollView
+        android:id="@+id/mapa_la"
+        android:layout_width="fill_parent"
+        android:layout_height="370sp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/mapa"
+        android:clickable="false"
+        android:fadingEdge="none"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <ImageView
+            android:id="@+id/mapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/aceptar"
+            android:scaleType="center"
+            android:src="@drawable/mapa" />
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/imaginamos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:adjustViewBounds="true"
+            android:background="@android:color/white"
+            android:contentDescription="@string/aceptar"
+            android:paddingBottom="8dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="9dp"
+            android:src="@drawable/imaginamos"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_above="@+id/fondo"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/fondodos"></RelativeLayout>
+
+        <ImageView
+            android:id="@+id/fondo"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/imaginamos"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/aceptar"
+            android:scaleType="fitXY"
+            android:src="@drawable/fondouno" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/nombre_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/aceptar"
+        android:src="@drawable/logo" />
+
+
+</RelativeLayout>

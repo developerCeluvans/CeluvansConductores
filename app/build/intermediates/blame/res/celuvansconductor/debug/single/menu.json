@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/build/intermediates/res/merged/celuvansconductor/debug/menu/reset_pass.xml",
+        "source": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/src/celuvansconductor/res/menu/reset_pass.xml"
+    },
+    {
+        "merged": "/Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/build/intermediates/res/merged/celuvansconductor/debug/menu/reset_pass.xml",
+        "source": "/Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/celuvansconductor/res/menu/reset_pass.xml"
+    }
+]

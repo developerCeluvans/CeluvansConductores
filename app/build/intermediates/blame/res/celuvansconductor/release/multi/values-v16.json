@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/build/intermediates/incremental/mergeCeluvansconductorReleaseResources/merged.dir/values-v16/values-v16.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 3,
+                    "endColumn": 12,
+                    "endOffset": 149
+                },
+                "from": {
+                    "file": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/src/celuvansconductor/res/values-v16/theme.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 171
+                    }
+                }
+            }
+        ]
+    }
+]

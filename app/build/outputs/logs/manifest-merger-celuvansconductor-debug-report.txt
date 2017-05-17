@@ -1,0 +1,532 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:2:1-142:12
+	package
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/developer_celuvans/.android/build-cache/b397c8ec2ee9ddbcc3d4117adeff04c5e78c0f21/output/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /Users/developer_celuvans/.android/build-cache/de2e5bc0430d69f9676ef1f867b93515e7728352/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-location:9.8.0] /Users/developer_celuvans/.android/build-cache/7e0c59e3c3b7b437ec8b3d371799a64058d2c359/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/2a166b5a36a706016014828bc20e9fa294372243/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/developer_celuvans/.android/build-cache/3fbab5d6eefc0d7d8d3168ce44b32d989e723a90/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/developer_celuvans/.android/build-cache/1be33f13a1656a375170ce1806a89d4f573a1739/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/8485a55caffa103b8d1e6f8cc460fe773245d8ea/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /Users/developer_celuvans/.android/build-cache/633fda648e6c4d395cb10bf9bd9a57907c589f55/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-core:9.8.0] /Users/developer_celuvans/.android/build-cache/315fbd3e940a198950bf16afdc8c35989b8c45c5/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/developer_celuvans/.android/build-cache/cd3fe600b25223346335fb3b5bbdcb438ca661ae/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/developer_celuvans/.android/build-cache/57c6edddd8cecbbfa7b53fb460be8a8e261866b2/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/developer_celuvans/.android/build-cache/523a67f8314e69512b0739cc871522bf83787068/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/developer_celuvans/.android/build-cache/a66f801dcb576068e2eb9b6244ac00101560dbcd/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/developer_celuvans/.android/build-cache/b667458b223ecfc83b348ce2e023cdaa4ad8feef/output/AndroidManifest.xml:17:5-42
+MERGED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/developer_celuvans/.android/build-cache/f0583d0c6f254efb82691366406c11ea6e1fe385/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/developer_celuvans/.android/build-cache/11d0166f9a6ad27c422d4122d66e030195422f55/output/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/developer_celuvans/.android/build-cache/c0f1dd3737f96912fd5ae6835b3f79249a9453b8/output/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:25.0.0] /Users/developer_celuvans/.android/build-cache/2ac7b75681c5ce1c176f9ac140bdb67c704e72e9/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.0] /Users/developer_celuvans/.android/build-cache/9fd521ad76392a83719016a3de0df8ea1051be1d/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.0] /Users/developer_celuvans/.android/build-cache/edae295264271fc830e8d24afbb7956e9c916929/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.0] /Users/developer_celuvans/.android/build-cache/231d6ba7ee9c28ddc1fbb66ce7befce2ecedcdd1/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.0] /Users/developer_celuvans/.android/build-cache/253825148b3f26d4c7a55e0420105c15c716f8bb/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.0.0] /Users/developer_celuvans/.android/build-cache/a84cf80df2cfaf12956de77e85a6982d7a5a9df3/output/AndroidManifest.xml:21:5-23:58
+MERGED from [io.card:android-sdk:5.3.4] /Users/developer_celuvans/.android/build-cache/6cc714b476af58ad6075cef8981601159e61f91b/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.5] /Users/developer_celuvans/.android/build-cache/481251dbcce807a06ece32fcb0bc0ec8c06e93e8/output/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.2] /Users/developer_celuvans/.android/build-cache/3f5209eb7f7f850f40775713e8768b274304b8b9/output/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.14] /Users/developer_celuvans/.android/build-cache/80ef30e5edf8f0d82001ea474e80bebff6d6d858/output/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.10] /Users/developer_celuvans/.android/build-cache/21434de169124799799b02c2dadf9ace76f9732a/output/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.14] /Users/developer_celuvans/.android/build-cache/902bb16b0b42a8be3e48a7e3bac90a43df397c5a/output/AndroidManifest.xml:23:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/developer_celuvans/.android/build-cache/f0583d0c6f254efb82691366406c11ea6e1fe385/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:8:9-34
+		INJECTED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml
+permission#com.imaginamos.taxisya.taxista.permission.MAPS_RECEIVE
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:11:5-13:47
+	android:protectionLevel
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:12:9-78
+uses-permission#com.imaginamos.taxisya.taxista.permission.MAPS_RECEIVE
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:15:5-94
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:15:22-91
+uses-permission#android.permission.INTERNET
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:16:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/developer_celuvans/.android/build-cache/b397c8ec2ee9ddbcc3d4117adeff04c5e78c0f21/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/2a166b5a36a706016014828bc20e9fa294372243/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/developer_celuvans/.android/build-cache/3fbab5d6eefc0d7d8d3168ce44b32d989e723a90/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/developer_celuvans/.android/build-cache/1be33f13a1656a375170ce1806a89d4f573a1739/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/8485a55caffa103b8d1e6f8cc460fe773245d8ea/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/developer_celuvans/.android/build-cache/cd3fe600b25223346335fb3b5bbdcb438ca661ae/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:20:5-66
+MERGED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:11:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.5] /Users/developer_celuvans/.android/build-cache/481251dbcce807a06ece32fcb0bc0ec8c06e93e8/output/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.2] /Users/developer_celuvans/.android/build-cache/3f5209eb7f7f850f40775713e8768b274304b8b9/output/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.14] /Users/developer_celuvans/.android/build-cache/80ef30e5edf8f0d82001ea474e80bebff6d6d858/output/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.10] /Users/developer_celuvans/.android/build-cache/21434de169124799799b02c2dadf9ace76f9732a/output/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.14] /Users/developer_celuvans/.android/build-cache/902bb16b0b42a8be3e48a7e3bac90a43df397c5a/output/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:16:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:17:5-66
+MERGED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:20:5-66
+MERGED from [io.card:android-sdk:5.3.4] /Users/developer_celuvans/.android/build-cache/6cc714b476af58ad6075cef8981601159e61f91b/output/AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:17:22-63
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:18:5-98
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:18:22-95
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:19:5-79
+MERGED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:19:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:20:5-81
+MERGED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:20:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:21:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:22:5-75
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:22:22-72
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:23:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/2a166b5a36a706016014828bc20e9fa294372243/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/developer_celuvans/.android/build-cache/3fbab5d6eefc0d7d8d3168ce44b32d989e723a90/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/developer_celuvans/.android/build-cache/cd3fe600b25223346335fb3b5bbdcb438ca661ae/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:24:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/developer_celuvans/.android/build-cache/b397c8ec2ee9ddbcc3d4117adeff04c5e78c0f21/output/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/2a166b5a36a706016014828bc20e9fa294372243/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/developer_celuvans/.android/build-cache/3fbab5d6eefc0d7d8d3168ce44b32d989e723a90/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/developer_celuvans/.android/build-cache/cd3fe600b25223346335fb3b5bbdcb438ca661ae/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:19:5-78
+MERGED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.FLAG_KEEP_SCREEN_ON
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:26:22-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/developer_celuvans/.android/build-cache/1be33f13a1656a375170ce1806a89d4f573a1739/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/8485a55caffa103b8d1e6f8cc460fe773245d8ea/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:27:22-79
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:29:5-74
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:29:22-71
+uses-permission#android.permission.ACCESS_BACKGROUND_SERVICE
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:30:5-84
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:30:22-81
+uses-permission#android.permission.CAMERA
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:31:5-65
+MERGED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:23:5-65
+MERGED from [io.card:android-sdk:5.3.4] /Users/developer_celuvans/.android/build-cache/6cc714b476af58ad6075cef8981601159e61f91b/output/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:31:22-62
+uses-permission#android.permission.READ_OWNER_DATA
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:32:5-74
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:32:22-71
+uses-permission#android.permission.WRITE_OWNER_DATA
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:33:5-75
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:33:22-72
+uses-permission#android.permission.WRITE_INTERNAL_STORAGE
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:34:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:35:5-80
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:35:22-77
+permission#com.imaginamos.taxisya.taxista.permission.C2D_MESSAGE
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:37:5-39:47
+	android:protectionLevel
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:39:9-44
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:38:9-77
+application
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:44:5-140:19
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/developer_celuvans/.android/build-cache/b397c8ec2ee9ddbcc3d4117adeff04c5e78c0f21/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /Users/developer_celuvans/.android/build-cache/de2e5bc0430d69f9676ef1f867b93515e7728352/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-location:9.8.0] /Users/developer_celuvans/.android/build-cache/7e0c59e3c3b7b437ec8b3d371799a64058d2c359/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/2a166b5a36a706016014828bc20e9fa294372243/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/developer_celuvans/.android/build-cache/3fbab5d6eefc0d7d8d3168ce44b32d989e723a90/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/developer_celuvans/.android/build-cache/1be33f13a1656a375170ce1806a89d4f573a1739/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/8485a55caffa103b8d1e6f8cc460fe773245d8ea/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /Users/developer_celuvans/.android/build-cache/633fda648e6c4d395cb10bf9bd9a57907c589f55/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-core:9.8.0] /Users/developer_celuvans/.android/build-cache/315fbd3e940a198950bf16afdc8c35989b8c45c5/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/developer_celuvans/.android/build-cache/cd3fe600b25223346335fb3b5bbdcb438ca661ae/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/developer_celuvans/.android/build-cache/57c6edddd8cecbbfa7b53fb460be8a8e261866b2/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/developer_celuvans/.android/build-cache/523a67f8314e69512b0739cc871522bf83787068/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/developer_celuvans/.android/build-cache/a66f801dcb576068e2eb9b6244ac00101560dbcd/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/developer_celuvans/.android/build-cache/b667458b223ecfc83b348ce2e023cdaa4ad8feef/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:36:5-47:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/developer_celuvans/.android/build-cache/f0583d0c6f254efb82691366406c11ea6e1fe385/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/developer_celuvans/.android/build-cache/11d0166f9a6ad27c422d4122d66e030195422f55/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/developer_celuvans/.android/build-cache/c0f1dd3737f96912fd5ae6835b3f79249a9453b8/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:25.0.0] /Users/developer_celuvans/.android/build-cache/2ac7b75681c5ce1c176f9ac140bdb67c704e72e9/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] /Users/developer_celuvans/.android/build-cache/9fd521ad76392a83719016a3de0df8ea1051be1d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] /Users/developer_celuvans/.android/build-cache/edae295264271fc830e8d24afbb7956e9c916929/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] /Users/developer_celuvans/.android/build-cache/231d6ba7ee9c28ddc1fbb66ce7befce2ecedcdd1/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] /Users/developer_celuvans/.android/build-cache/253825148b3f26d4c7a55e0420105c15c716f8bb/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] /Users/developer_celuvans/.android/build-cache/a84cf80df2cfaf12956de77e85a6982d7a5a9df3/output/AndroidManifest.xml:25:5-20
+MERGED from [io.card:android-sdk:5.3.4] /Users/developer_celuvans/.android/build-cache/6cc714b476af58ad6075cef8981601159e61f91b/output/AndroidManifest.xml:21:5-26:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.5] /Users/developer_celuvans/.android/build-cache/481251dbcce807a06ece32fcb0bc0ec8c06e93e8/output/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.2] /Users/developer_celuvans/.android/build-cache/3f5209eb7f7f850f40775713e8768b274304b8b9/output/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.14] /Users/developer_celuvans/.android/build-cache/80ef30e5edf8f0d82001ea474e80bebff6d6d858/output/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.10] /Users/developer_celuvans/.android/build-cache/21434de169124799799b02c2dadf9ace76f9732a/output/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.14] /Users/developer_celuvans/.android/build-cache/902bb16b0b42a8be3e48a7e3bac90a43df397c5a/output/AndroidManifest.xml:27:5-20
+	android:screenOrientation
+		ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:39:9-45
+	android:label
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:48:9-41
+	android:supportsRtl
+		ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:40:9-35
+	android:allowBackup
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:46:9-35
+	android:icon
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:47:9-45
+	android:theme
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:50:9-40
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:45:9-38
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:52:9-54:71
+	android:value
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:54:13-68
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:53:13-62
+uses-library#com.google.android.maps
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:56:9-64
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:56:23-61
+service#com.imaginamos.taxisya.taxista.io.MyFirebaseMessagingService
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:59:9-64:19
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:60:13-58
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:61:13-63:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:62:17-77
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:62:25-75
+service#com.imaginamos.taxisya.taxista.io.MyFirebaseInstanceIDService
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:67:9-72:19
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:68:13-59
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:69:13-71:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:70:17-79
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:70:25-77
+activity#com.imaginamos.taxisya.taxista.activities.InicialActivityLogin
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:76:9-86:20
+	android:hardwareAccelerated
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:79:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:80:13-52
+	android:configChanges
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:78:13-63
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:77:13-60
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:81:13-85:29
+action#android.intent.action.MAIN
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:82:17-69
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:82:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:84:17-77
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:84:27-74
+activity#com.imaginamos.taxisya.taxista.activities.NotificationActivity
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:87:9-89:50
+	android:hardwareAccelerated
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:89:13-47
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:88:13-60
+activity#com.imaginamos.taxisya.taxista.activities.MainActivity
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:90:9-92:50
+	android:hardwareAccelerated
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:92:13-47
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:91:13-52
+activity#com.imaginamos.taxisya.taxista.activities.WaitServiceActivity
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:93:9-95:77
+	android:configChanges
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:95:13-74
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:94:13-59
+activity#com.imaginamos.taxisya.taxista.activities.HistoricActivity
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:96:9-98:50
+	android:hardwareAccelerated
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:98:13-47
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:97:13-56
+activity#com.imaginamos.taxisya.taxista.activities.MapActivity
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:99:9-102:50
+	android:hardwareAccelerated
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:102:13-47
+	android:configChanges
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:101:13-74
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:100:13-51
+activity#com.imaginamos.taxisya.taxista.activities.LoginActivity
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:104:9-106:50
+	android:hardwareAccelerated
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:106:13-47
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:105:13-53
+receiver#com.imaginamos.taxisya.taxista.io.GcmBroadcastReceiver
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:108:9-116:20
+	android:permission
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:110:13-73
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:109:13-52
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.imaginamos.taxisya.taxista
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:111:13-115:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:112:17-81
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:112:25-78
+category#com.imaginamos.taxisya.taxista
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:114:17-75
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:114:27-72
+receiver#com.imaginamos.taxisya.taxista.io.UpdateReceiver
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:117:9-121:20
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:117:19-52
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:118:13-120:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:119:17-79
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:119:25-76
+service#com.imaginamos.taxisya.taxista.io.GCMIntentService
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:123:9-56
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:123:18-53
+service#com.imaginamos.taxisya.taxista.io.MyService
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:127:9-49
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:127:18-46
+service#com.imaginamos.taxisya.taxista.io.DriverService
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:128:9-53
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:128:18-50
+meta-data#io.fabric.ApiKey
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:130:9-132:72
+	android:value
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:132:13-69
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:131:13-44
+activity#com.imaginamos.taxisya.taxista.activities.RegisterDriverActivity
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:134:9-136:69
+	android:label
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:136:13-67
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:135:13-62
+activity#com.imaginamos.taxisya.taxista.activities.ResetPassActivity
+ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:137:9-139:64
+	android:label
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:139:13-62
+	android:name
+		ADDED from /Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/src/main/AndroidManifest.xml:138:13-57
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.8.0] /Users/developer_celuvans/.android/build-cache/b397c8ec2ee9ddbcc3d4117adeff04c5e78c0f21/output/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.8.0] /Users/developer_celuvans/.android/build-cache/b397c8ec2ee9ddbcc3d4117adeff04c5e78c0f21/output/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.8.0] /Users/developer_celuvans/.android/build-cache/b397c8ec2ee9ddbcc3d4117adeff04c5e78c0f21/output/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/developer_celuvans/.android/build-cache/633fda648e6c4d395cb10bf9bd9a57907c589f55/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/developer_celuvans/.android/build-cache/633fda648e6c4d395cb10bf9bd9a57907c589f55/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/developer_celuvans/.android/build-cache/633fda648e6c4d395cb10bf9bd9a57907c589f55/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/developer_celuvans/.android/build-cache/633fda648e6c4d395cb10bf9bd9a57907c589f55/output/AndroidManifest.xml:19:19-85
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/developer_celuvans/.android/build-cache/cd3fe600b25223346335fb3b5bbdcb438ca661ae/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/developer_celuvans/.android/build-cache/cd3fe600b25223346335fb3b5bbdcb438ca661ae/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/developer_celuvans/.android/build-cache/6bd29942f422b8b1013ac74e74c5846ac8550a75/output/AndroidManifest.xml:32:16-87
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/developer_celuvans/.android/build-cache/57c6edddd8cecbbfa7b53fb460be8a8e261866b2/output/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/developer_celuvans/.android/build-cache/57c6edddd8cecbbfa7b53fb460be8a8e261866b2/output/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/developer_celuvans/.android/build-cache/57c6edddd8cecbbfa7b53fb460be8a8e261866b2/output/AndroidManifest.xml:23:18-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/developer_celuvans/.android/build-cache/b378c97536ed0255b8f8238f6aa044a382a6f912/output/AndroidManifest.xml:44:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/developer_celuvans/.android/build-cache/523a67f8314e69512b0739cc871522bf83787068/output/AndroidManifest.xml:6:9-175
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/developer_celuvans/.android/build-cache/523a67f8314e69512b0739cc871522bf83787068/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/developer_celuvans/.android/build-cache/523a67f8314e69512b0739cc871522bf83787068/output/AndroidManifest.xml:6:125-149
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/developer_celuvans/.android/build-cache/523a67f8314e69512b0739cc871522bf83787068/output/AndroidManifest.xml:6:150-173
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/developer_celuvans/.android/build-cache/523a67f8314e69512b0739cc871522bf83787068/output/AndroidManifest.xml:6:79-124
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/developer_celuvans/.android/build-cache/b667458b223ecfc83b348ce2e023cdaa4ad8feef/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/developer_celuvans/.android/build-cache/b667458b223ecfc83b348ce2e023cdaa4ad8feef/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/developer_celuvans/.android/build-cache/b667458b223ecfc83b348ce2e023cdaa4ad8feef/output/AndroidManifest.xml:20:20-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:14:22-73
+uses-feature#android.hardware.camera
+ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:26:5-28:36
+MERGED from [io.card:android-sdk:5.3.4] /Users/developer_celuvans/.android/build-cache/6cc714b476af58ad6075cef8981601159e61f91b/output/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:28:9-33
+	android:name
+		ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:27:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:29:5-31:36
+MERGED from [io.card:android-sdk:5.3.4] /Users/developer_celuvans/.android/build-cache/6cc714b476af58ad6075cef8981601159e61f91b/output/AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:31:9-33
+	android:name
+		ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:30:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:32:5-34:36
+	android:required
+		ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:34:9-33
+	android:name
+		ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:33:9-53
+activity#com.paymentez.androidsdk.ActivityWebView
+ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:41:9-77
+	android:name
+		ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:41:19-74
+activity#io.card.payment.CardIOActivity
+ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:42:9-44:66
+MERGED from [io.card:android-sdk:5.3.4] /Users/developer_celuvans/.android/build-cache/6cc714b476af58ad6075cef8981601159e61f91b/output/AndroidManifest.xml:22:9-24:66
+	android:configChanges
+		ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:44:13-63
+	android:name
+		ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:43:13-58
+activity#io.card.payment.DataEntryActivity
+ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:45:9-70
+MERGED from [io.card:android-sdk:5.3.4] /Users/developer_celuvans/.android/build-cache/6cc714b476af58ad6075cef8981601159e61f91b/output/AndroidManifest.xml:25:9-70
+	android:name
+		ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:45:19-67
+activity#com.paymentez.androidsdk.ScanCardActivity
+ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:46:9-78
+	android:name
+		ADDED from [com.paymentez.paymentezsdk:paymentezsdk:1.0.4] /Users/developer_celuvans/.android/build-cache/e0d6ec5053bec00901a303998191bb618044d736/output/AndroidManifest.xml:46:19-75

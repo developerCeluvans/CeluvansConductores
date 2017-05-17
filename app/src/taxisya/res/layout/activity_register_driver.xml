@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/btn_volver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/btn_back" />
+
+        <ImageView
+            android:id="@+id/banner_arriba"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/logo" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_bottom_g">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_bottom_g"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="42dp"
+            android:gravity="center_horizontal|bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/titulo_login_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:text="@string/logint_titulo_1"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/titulo_login_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|right"
+                android:text="@string/logint_titulo_2"
+                android:textColor="@color/text_orange"
+                android:textSize="28dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="42dp"
+            android:gravity="center_horizontal|bottom"
+            android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/spinner_country"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="42dp"
+            android:gravity="center_horizontal|bottom"
+            android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/spinner_department"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="42dp"
+            android:gravity="center_horizontal|bottom"
+            android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/spinner_city"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </Spinner>
+        </LinearLayout>
+
+
+        <!-- Name  -->
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/textfield_registro"
+            android:cursorVisible="true"
+            android:ems="10"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/register_driver_name"
+            android:paddingLeft="10sp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#f57e5b"
+            android:theme="@style/Theme.Default"></EditText>
+
+
+
+        <!-- Identify -->
+        <EditText
+            android:id="@+id/txtIdentify"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/textfield_registro"
+            android:cursorVisible="true"
+            android:ems="10"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/register_driver_identify"
+            android:paddingLeft="10sp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#f57e5b"
+            android:theme="@style/Theme.Default">
+
+        </EditText>
+
+        <!-- License -->
+        <EditText
+            android:id="@+id/txtLicense"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/textfield_registro"
+            android:cursorVisible="true"
+            android:ems="10"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/register_driver_license"
+            android:paddingLeft="10sp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#f57e5b"
+            android:theme="@style/Theme.Default">
+
+        </EditText>
+
+        <!-- phone -->
+        <EditText
+            android:id="@+id/txtCellphone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/textfield_registro"
+            android:cursorVisible="true"
+            android:ems="10"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/register_driver_cellphone"
+            android:paddingLeft="10sp"
+            android:inputType="number|phone"
+            android:textColor="@android:color/black"
+            android:textColorHint="#f57e5b"
+            android:theme="@style/Theme.Default">
+
+        </EditText>
+
+        <!-- cellphone -->
+
+        <EditText
+            android:id="@+id/txtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/textfield_registro"
+            android:cursorVisible="true"
+            android:ems="10"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/register_driver_phone"
+            android:inputType="number|phone"
+            android:paddingLeft="10sp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#f57e5b"
+            android:theme="@style/Theme.Default">
+
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/txtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/textfield_registro"
+            android:cursorVisible="true"
+            android:ems="10"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/register_driver_address"
+            android:paddingLeft="10sp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#f57e5b"
+            android:theme="@style/Theme.Default">
+
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/txtUser"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/textfield_registro"
+            android:ems="10"
+            android:hint="@string/register_driver_email"
+            android:inputType="textPersonName"
+            android:paddingLeft="10sp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#f57e5b" />
+
+        <EditText
+            android:id="@+id/txtPass"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/textfield_registro"
+            android:cursorVisible="true"
+            android:ems="10"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/yourpassword"
+            android:inputType="textPassword"
+            android:paddingLeft="10sp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#f57e5b"
+            android:theme="@style/Theme.Default"></EditText>
+
+        <EditText
+            android:id="@+id/txtCarPlate"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/textfield_registro"
+            android:ems="10"
+            android:hint="@string/register_driver_car_plate"
+            android:paddingLeft="10sp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#f57e5b" />
+
+        <EditText
+            android:id="@+id/txtCarBrand"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/textfield_registro"
+            android:ems="10"
+            android:hint="@string/register_driver_car_brand"
+            android:paddingLeft="10sp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#f57e5b" />
+
+        <EditText
+            android:id="@+id/txtCarLine"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/textfield_registro"
+            android:ems="10"
+            android:hint="@string/register_driver_car_line"
+            android:paddingLeft="10sp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#f57e5b" />
+
+        <!-->
+
+        <EditText
+            android:id="@+id/txtCarMobileId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/textfield_registro"
+            android:ems="10"
+            android:hint="@string/register_driver_car_mobile_id"
+            android:paddingLeft="10sp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#f57e5b" />
+
+            </!-->
+
+        <EditText
+            android:id="@+id/txtCarYear"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/textfield_registro"
+            android:ems="10"
+            android:hint="@string/register_driver_car_year"
+            android:inputType="number"
+            android:paddingLeft="10sp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#f57e5b" />
+
+        <EditText
+            android:id="@+id/txtCarCompany"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/textfield_registro"
+            android:ems="10"
+            android:hint="@string/register_driver_car_company"
+            android:paddingLeft="10sp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#f57e5b" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:layout_height="150dp">
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:orientation="vertical"
+                android:layout_marginRight="5dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/lblDriverPhoto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="10dp"
+                    android:text="@string/register_driver_photo"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:id="@+id/driver_photo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:src="@android:color/darker_gray"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:layout_height="150dp">
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:orientation="vertical"
+                android:layout_marginRight="5dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/lblDriverDocumentPhoto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="10dp"
+                    android:text="@string/register_driver_document_photo"
+                    android:textSize="15dp" />
+
+                <ImageView
+                android:id="@+id/driver_document"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:src="@android:color/darker_gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/lblDriverLicensePhoto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="10dp"
+                    android:text="@string/register_driver_license_photo"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:id="@+id/driver_document2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:src="@android:color/darker_gray" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:orientation="vertical"
+                android:layout_marginRight="5dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/lblVehicleCardProperty"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="10dp"
+                    android:text="@string/register_driver_card_property"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:id="@+id/driver_document3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:src="@android:color/darker_gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_height="fill_parent">  
+
+                <TextView
+                    android:id="@+id/lblDriverCardOperation"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="10dp"
+                    android:text="@string/register_driver_card_operation"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:id="@+id/driver_document4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:src="@android:color/darker_gray" />
+              </LinearLayout>
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_request"
+            android:onClick="registerService"
+            android:text="@string/login_btn_ingresar"
+            android:textColor="@android:color/white"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

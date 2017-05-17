@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/build/intermediates/res/merged/celuvansconductor/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/build/intermediates/res/merged/celuvansconductor/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/developer_celuvans/.android/build-cache/f0583d0c6f254efb82691366406c11ea6e1fe385/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/build/intermediates/res/merged/celuvansconductor/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/developer_celuvans/Documents/workspace/android/ConductorRamas/tyconductor-android/app/build/intermediates/res/merged/celuvansconductor/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/developer_celuvans/.android/build-cache/f0583d0c6f254efb82691366406c11ea6e1fe385/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

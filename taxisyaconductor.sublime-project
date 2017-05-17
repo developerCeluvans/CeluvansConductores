@@ -1,0 +1,26 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+    "build_systems":
+    [
+       {
+            "name":"Android clean",
+            "shell_cmd": "gradle clean",
+            "working_dir": "$project_path"
+        },
+        {
+            "name":"Android build debug",
+            "shell_cmd": "gradle build",
+            "working_dir": "$project_path"
+        },
+        {
+            "name":"Android assemble debug",
+            "shell_cmd": "gradle assembleDebug",
+            "working_dir": "$project_path"
+        },
+    ]
+}

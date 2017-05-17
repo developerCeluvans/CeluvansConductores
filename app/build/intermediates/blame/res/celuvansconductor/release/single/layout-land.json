@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/build/intermediates/res/merged/celuvansconductor/release/layout-land/activity_map.xml",
+        "source": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/src/celuvansconductor/res/layout-land/activity_map.xml"
+    },
+    {
+        "merged": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/build/intermediates/res/merged/celuvansconductor/release/layout-land/activity_main.xml",
+        "source": "/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/src/celuvansconductor/res/layout-land/activity_main.xml"
+    }
+]

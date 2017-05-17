@@ -1,0 +1,4 @@
+#Wed Jan 18 09:52:58 COT 2017
+base.0=/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/build/intermediates/transforms/dex/celuvansconductor/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/TaxisYa/Documents/Aplicaciones/ConductorRamas/tyconductor-android/app/build/intermediates/transforms/dex/celuvansconductor/release/folders/1000/1f/main/classes.dex

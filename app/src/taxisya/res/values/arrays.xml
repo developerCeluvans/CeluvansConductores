@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="opciones">
+		<item>Calle</item>
+		<item>Carrera</item>
+		<item>Transversal</item>
+		<item>Diagonal</item>
+		<item>Avenida</item>
+	</string-array>
+	<array name="entries">
+	    <item>@drawable/cerrar_normal</item>	
+		<item>@drawable/habilitarme_over</item> 		
+		<item>@drawable/historial_normal</item>
+	</array>	
+	<array name="names">
+	    <item>The cat</item>
+	    <item>The hippo</item>
+	    <item>The monkey</item>
+	</array>
+</resources>

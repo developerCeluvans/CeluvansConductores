@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="HandlerLeak">
+        <ignore path="src/com/imaginamos/taxisya/taxista/MyService.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/imaginamos/taxisya/AgendadoView.java" />
+    </issue>
+</lint>

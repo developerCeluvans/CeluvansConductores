@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Taxista</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">kr 72 j bis # 40 c 50 sur apt 402 in 10 Barrio Timiza Nombre Esteban Quintero</string>
+    <string name="aceptar">Accept</string>
+
+    <!-- TEXTOS LOGIN -->
+    <string name="the_user_arrived">Customer has received the information.</string>
+    <string name="error_dos">This user is already logged into another device ..</string>
+    <string name="network_connectivity_message">Checking...</string>
+    <string name="error_net">No Internet connection!</string>
+    <string name="error2">This service was canceled by the user!</string>
+    <string name="error_arrived">There was an error in the confirmation of arrival, try again!</string>
+    <string name="error_cancel_service">There was an error cancelling the service, try again</string>
+    <string name="error_disable">There was an error disabling, try again</string>
+    <string name="welcome">Welcome to taxisya   %1$s</string>
+    <string name="ready_enable">%1$s you are enabled.</string>
+    <string name="email">Identify</string>
+    <string name="cancel">Cancel</string>
+    <string name="user_cancel">The user canceled the service!</string>
+    <string name="title_activity_prueba">PruebaActivity</string>
+    <string name="update_play_service">Update Google Play Services</string>
+    <string name="important">Important</string>
+    <string name="confim_cancel_service">Are you sure to cancel service?</string>
+    <string name="Terms"><u>Accept Terms and Conditions</u></string>
+
+    <!-- SERVICES -->
+
+    <string name="sendmyposition">v2/driver/%1$s/updateposition</string>
+    <string name="enable_driver">v2/driver/%1$s/enable</string>
+    <string name="disable_driver">v2/driver/%1$s/disable</string>
+    <string name="confirm_service">v2/driver/%1$s/confirmservice</string>
+    <string name="arrived_serivce">v2/driver/%1$s/arrive</string>
+    <string name="cancel_service">v2/driver/%1$s/cancelservice</string>
+    <string name="arrived_service_probe">service/arrived</string>
+    <string name="finish_service">service/finish2</string>
+    <string name="load_history">service/driver</string>
+    <string name="checkstatuservice">service/status</string>
+    <string name="login">driver/login</string>
+    <string name="logout">driver/logout</string>
+    <string name="update_car">driver/updatecar</string>
+    <string name="is_logued">driver/islogued</string>
+    <string name="app_versions">app/versions</string>
+    <string name="button_app_version">Update now</string>
+
+    <!-- ALERTS -->
+
+    <string name="enable">Enabling</string>
+    <string name="title_activity_forg_pass">ForgPass</string>
+    <string name="tipo_agendamiento_aeropuerto">Airport</string>
+    <string name="tipo_agendamiento_fuera_de_ciudad">Outsides</string>
+    <string name="tipo_agendamiento_mensajeria">Courier</string>
+    <string name="historico_numero">Service #</string>
+    <string name="historico_barrio">"Neighborhood: "</string>
+    <string name="historico_fecha">"Date: "</string>
+    <string name="historico_calificacion_ninguna">Rating: None</string>
+    <string name="historico_calificacion_muy_buena">Very good</string>
+    <string name="historico_calificacion_buena">Okay</string>
+    <string name="historico_calificacion_mala">Bad</string>
+    <string name="historico_calificacion_nada">None</string>
+    <string name="historico_calificacion_prefijo">"Rating: "</string>
+    <string name="historico_titulo_dialogo">Loading services ...</string>
+    <string name="login_titulo_placas">License plate available</string>
+    <string name="login_aviso_ingreso_datos">Enter your login</string>
+    <string name="mapa_titulo_direccion">"Street address: "</string>
+    <string name="login_aceptar">Accept</string>
+    <string name="map_enviando_aviso_cliente">Sending information to the customer...</string>
+    <string name="mapa_finalizando_servicio">Finishing service...</string>
+    <string name="mapa_respuesta_si">Yes</string>
+    <string name="mapa_respuesta_no">No</string>
+    <string name="mapa_cancelando_servicio">Canceling Service...</string>
+    <string name="waitservice_numeros_cuarta">quarter</string>
+    <string name="waitservice_numeros_sexta">sixth</string>
+    <string name="waitservice_numeros_decima">decima</string>
+    <string-array name="waitservice_numbers">
+        <item>@string/waitservice_numeros_primera</item>
+        <item>@string/waitservice_numeros_segunda</item>
+        <item>@string/waitservice_numeros_tercera</item>
+        <item>@string/waitservice_numeros_cuarta</item>
+        <item>@string/waitservice_numeros_quinta</item>
+        <item>@string/waitservice_numeros_sexta</item>
+        <item>@string/waitservice_numeros_septima</item>
+        <item>@string/waitservice_numeros_octava</item>
+        <item>@string/waitservice_numeros_novena</item>
+        <item>@string/waitservice_numeros_decima</item>
+    </string-array>
+    <string name="waitservice_titulo_dialogo">Important information</string>
+    <string name="waitservice_texto_hablado_numero">"  number  "</string>
+    <string name="waitservice_texto_hora">" Time: "</string>
+    <string name="waitservice_texto_barrio">"\nNeighborhood: "</string>
+    <string name="waitservice_no_permitido_otro_servicio">You can not take additional services</string>
+    <string name="waitservice_texto_servicio">" Service "</string>
+    <string name="waitservice_texto_barrio2">" Neighborhood: "</string>
+    <string name="waitservice_titulo_envio_confirmacion">Sending confirmation...</string>
+    <string name="dialog_titulo_taxisya">Taxis Ya</string>
+    <string name="historial_titulo_1">Service</string>
+    <string name="historial_titulo_2">History</string>
+    <string name="logint_titulo_2">your information</string>
+    <string name="logint_direccion_oficina">Calle 1C Bis #18-34</string>
+    <string name="logint_telefono_oficina">Phone: 350 200 0000</string>
+    <string name="map_button_ya_llegue">I\'m already here</string>
+    <string name="map_button_cancelar">Cancel</string>
+    <string name="map_button_finalizar">Finalize</string>
+    <string name="waitservice_titulo_1">Active</string>
+    <string name="waitservice_titulo_2">Services</string>
+    <string name="waitservice_button_deshabilitarme">Disable me</string>
+    <string name="my_cars_button_confirmar">Confirm</string>
+    <string name="mapview_servicio_cancelado">The service was canceled by the user</string>
+    <string name="error1">This service was confirmed by another taxi!</string>
+    <string name="error3">This service was confirmed! "</string>
+    <string name="error_tres">Your membership is expired, contact the center to activate it again.</string>
+    <string name="error_uno">Username or password incorrect.</string>
+    <string name="gcmintentservice_mensaje_otro_dispositivo">Closed session by another device</string>
+    <string name="historial_subtitulo">in the last month</string>
+    <string name="historico_aviso_sin_historial">You have no recent services</string>
+    <string name="login_aviso_error_login">There was a problem logging! Try again</string>
+    <string name="login_deshabilito_login_otro_dispositivo">He was disabled, because I began a session on another device</string>
+    <string name="login_titulo_autenticando">Authenticating...</string>
+    <string name="login_titulo_dialogo">Important information</string>
+    <string name="login_titulo_dialogo_mensaje">Important information</string>
+    <string name="logint_aviso_registro">as a taxi driver to join go to our offices</string>
+    <string name="logint_subtitulo">to access the system</string>
+    <string name="logint_titulo_1">Enter</string>
+    <string name="message_app_version">A new version of Taxisya available; this version is no longer supported. To continue you must update the application</string>
+    <string name="no_gps">There are problems with the GPS!</string>
+    <string name="oper_cancel">The operator has canceled the service!</string>
+    <string name="saliendo_aplicacion">Leaving the application...</string>
+    <string name="servicio_finalizado">The service was successfully completed.</string>
+    <string name="tipo_agendamiento_por_horas">By Hours</string>
+    <string name="title_app_version">Update available</string>
+    <string name="verificando">Verifying...</string>
+    <string name="waitservice_errot_conexion">There was an error in your internet connection! At this time you will not receive services</string>
+    <string name="waitservice_numeros_novena">ninth</string>
+    <string name="waitservice_numeros_octava">eighth</string>
+    <string name="waitservice_numeros_primera">first</string>
+    <string name="waitservice_numeros_quinta">fifth</string>
+    <string name="waitservice_numeros_segunda">second</string>
+    <string name="waitservice_numeros_septima">seventh</string>
+    <string name="waitservice_numeros_tercera">third</string>
+    <string name="waitservice_se_deshabilito_otro_dispositivo">He was disabled, because I began a session on another device</string>
+    <string name="waitservice_texto_sur">south</string>
+    <string name="waitservice_titulo_deshabilitando">Disabling...</string>
+    <string name="yourpassword">password</string>
+    <string name="login_btn_Yacuenta">I have Log in</string>
+    <string name="login_btn_ingresar">Log In</string>
+    <string name="login_btn_register">First Register</string>
+    <string name="login_btn_forgot">Forgot your password?</string>
+    <string name="title_activity_register_driver">RegisterDriverActivity</string>
+
+    <!-- Register driver -->
+    <string name="register_driver_name">Name</string>
+    <string name="register_driver_identify">Identify</string>
+    <string name="register_driver_license">Driver License</string>
+    <string name="register_driver_phone">Phone</string>
+    <string name="register_driver_cellphone">Cellphone</string>
+    <string name="register_driver_address">Address</string>
+    <string name="register_driver_email">Email</string>
+    <string name="register_driver_password">Your password</string>
+    <string name="register_driver_car_plate">Vehicle plate</string>
+    <string name="register_driver_car_brand">Vehicle brand</string>
+    <string name="register_driver_car_line">Vehicle line</string>
+    <string name="register_driver_car_mobile_id">Vehicle mobile id</string>
+    <string name="register_driver_car_year">Vehicle year</string>
+    <string name="register_driver_car_company">Vehicle company</string>
+    <string name="register_driver_photo">Driver Photo</string>
+    <string name="register_driver_card_operation">Card Operation</string>
+    <string name="register_driver_document_photo">Id Document</string>
+    <string name="register_driver_license_photo">License</string>
+    <string name="register_driver_card_property">Property Card</string>
+    <string name="register_driver_in_progress">Register in progress...</string>
+    <string name="register_driver_failure">Their data show inconsistencies. Please contact us at the following website http://www.taxisya.co</string>
+
+    <string name="register_ok_message">Thank you for your registration, we will contact you so you can start using our service</string>
+    <string name="register_bad_message">Register fail</string>
+    <string name="register_all_fields">All fields and photos are required</string>
+
+    <string name="enable_titulo_dialogo">Car in use!</string>
+    <string name="enable_error_message_part1">The vehicle is in use. Please contact </string>
+    <string name="enable_error_message_part2">driver to cellphone </string>
+    <string name="title_activity_reset_pass">ResetPassActivity</string>
+
+    <!-- recuperar contraseña -->
+    <string name="recover_password">Recover password</string>
+    <string name="digita_tu_direcci_n_de_correo">Enter your email</string>
+    <string name="codigo_de_confirmaci_n">Confirmation code</string>
+    <string name="digita_nueva_contrase_a">Enter new password</string>
+    <string name="texto_finalizado">Finalized</string>
+    <string name="se_ha_enviado_a_tu_correo_electronico_un_codigo_de_confirmaci_n">It has been sent to your email a confirmation code</string>
+    <string name="text_contrasena_restablecida">Password reset with success</string>
+    <string name="text_usuario_no_existe_codigo_incorrecto">This user does not exist. Wrong Code!</string>
+    <string name="texto_usuario_no_existe">This user does not exist!</string>
+    <string name="text_campos_imcompletos">Incomplete fields</string>
+    <string name="text_escribe_email">Enter your email address</string>
+    <string name="enviando">Sending...</string>
+    <string name="type_code">Enter the confirmation code sent to your email so you can enter the new password</string>
+    <string name="resetpass">forgotten</string>
+    <string name="code_pass">user/pwd/confirm</string>
+    <string name="btn_ok_text">OK</string>
+</resources>

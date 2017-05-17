@@ -1,0 +1,181 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/banner_arriba"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/logop" />
+
+        <LinearLayout
+            android:id="@+id/direcciones"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:paddingBottom="2sp"
+            android:paddingTop="2sp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/linea_gris" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/icon_radio_ope"
+                    android:layout_width="70sp"
+                    android:layout_height="70sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5sp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/operadora_over"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/direccion_cliente"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hello_world"
+                        android:textColor="#000"
+                        android:textSize="@dimen/fontdirmap"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/nombre_cliente"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hello_world"
+                        android:textColor="#000"
+                        android:textSize="@dimen/fontdirmap"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <fragment
+            android:id="@+id/map"
+            class="com.google.android.gms.maps.MapFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="0sp"
+            android:layout_weight="0.62"
+            android:clickable="true" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnLlegada"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight=".5"
+                    android:background="@color/text_blue"
+                    android:paddingBottom="2dp"
+                    android:text="@string/map_button_ya_llegue"
+                    android:textColor="@android:color/white"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btnCancelar"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight=".5"
+                    android:background="@color/text_red"
+                    android:paddingBottom="2dp"
+                    android:text="@string/map_button_cancelar"
+                    android:textColor="@android:color/white"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btnFinalizar"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_red"
+                    android:paddingBottom="2dp"
+                    android:text="@string/map_button_finalizar"
+                    android:textColor="@android:color/white"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_no_connectivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/disabled_transparent"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView_no_connectivity"
+            android:layout_centerHorizontal="true"
+            android:indeterminate="true" />
+
+        <TextView
+            android:id="@+id/textView_no_connectivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="@dimen/no_connectivity_text_margin"
+            android:layout_marginLeft="@dimen/no_connectivity_text_margin"
+            android:layout_marginRight="@dimen/no_connectivity_text_margin"
+            android:layout_marginStart="@dimen/no_connectivity_text_margin"
+            android:gravity="center"
+            android:text="@string/network_connectivity_message"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_large" />
+    </RelativeLayout>
+</RelativeLayout>

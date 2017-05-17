@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/banner_arriba"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/logo" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_bottom_g">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom_g"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="30sp"
+            android:paddingRight="30sp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:gravity="center_horizontal|bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/titulo_login_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dp"
+                    android:text="@string/logint_titulo_1"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:id="@+id/titulo_login_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|right"
+                    android:text="@string/logint_titulo_2"
+                    android:textColor="@color/text_orange"
+                    android:textSize="28dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/login_subtitulo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="10dp"
+                android:text="@string/logint_subtitulo"
+                android:textSize="22dp" />
+
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/btn_request"
+                android:onClick="registerService"
+                android:text="@string/login_btn_register"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/btn_green"
+                android:text="@string/login_btn_Yacuenta"
+                android:onClick="registerService"
+                android:textColor="@android:color/white"
+                android:visibility="visible"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/login_texto_registro"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/logint_aviso_registro"
+                android:textColor="@android:color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/login_direccion_oficina"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/logint_direccion_oficina"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/login_telefono_oficina"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/logint_telefono_oficina"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

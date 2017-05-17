@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "147226821678",
+    "firebase_url": "https://taxisyaconductor-142818.firebaseio.com",
+    "project_id": "taxisyaconductor-142818",
+    "storage_bucket": "taxisyaconductor-142818.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147226821678:android:63356f00a6b55528",
+        "android_client_info": {
+          "package_name": "co.taxisya.celuvansconductor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147226821678-h7mdgfl0h6flmeefp5h7ko4hkhp1d5jf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.taxisya.celuvansconductor",
+            "certificate_hash": "6C11194AEA913ABB8F7A1551864845F4BF6830D9"
+          }
+        },
+        {
+          "client_id": "147226821678-p1non7rjg0j9jlo76c532cu0aou7evuu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwp59m9peEue3Ozka3f7TrUSFFNWwszKQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147226821678-p1non7rjg0j9jlo76c532cu0aou7evuu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
